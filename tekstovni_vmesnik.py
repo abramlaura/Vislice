@@ -6,7 +6,7 @@ def izpis_igre(igra):
 
 {geslo}
 Napačne črke: {napacne_crke}
-Ugibaš šse {stevilo}-krat
+Ugibaš še {stevilo}-krat
     =============================""".format(
         geslo=igra.pravilni_del_gesla(), 
         napacne_crke=igra.nepravilni_ugibi(),
